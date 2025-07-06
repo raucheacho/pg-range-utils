@@ -1,0 +1,47 @@
+{
+  "name": "range-utils",
+  "version": "1.0.0",
+  "description": "A TypeScript utility library for working with ranges, including PostgreSQL range type support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "range",
+    "interval",
+    "typescript",
+    "postgresql",
+    "bounds",
+    "utils"
+  ],
+  "author": "Rauche Acho",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raucheacho/range-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raucheacho/range-utils/issues"
+  },
+  "homepage": "https://github.com/raucheacho/range-utils#readme"
+}
