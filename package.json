@@ -1,5 +1,5 @@
 {
-  "name": "range-utils",
+  "name": "pg-range-utils",
   "version": "1.0.0",
   "description": "A TypeScript utility library for working with ranges, including PostgreSQL range type support",
   "main": "dist/index.js",
@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raucheacho/range-utils.git"
+    "url": "git+https://github.com/raucheacho/pg-range-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/raucheacho/range-utils/issues"
+    "url": "https://github.com/raucheacho/pg-range-utils/issues"
   },
-  "homepage": "https://github.com/raucheacho/range-utils#readme"
+  "homepage": "https://github.com/raucheacho/pg-range-utils#readme"
 }

@@ -1,4 +1,4 @@
-name: Publish Range Utils  to npm
+name: Publish Pg Range Utils  to npm
 
 on:
   release:
